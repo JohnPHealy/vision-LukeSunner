@@ -9560,9 +9560,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3385039474675676778, guid: 330161480ff580142b0a89f7ca67c58a, type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385039474675676778, guid: 330161480ff580142b0a89f7ca67c58a, type: 3}
+      propertyPath: m_UseAutoMass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3385039474675676781, guid: 330161480ff580142b0a89f7ca67c58a, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7311769860360019706, guid: 330161480ff580142b0a89f7ca67c58a, type: 3}
+      propertyPath: jumpForce
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7311769860360019706, guid: 330161480ff580142b0a89f7ca67c58a, type: 3}
+      propertyPath: cancelJumpEnabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7311769860360019706, guid: 330161480ff580142b0a89f7ca67c58a, type: 3}
       propertyPath: groundLayers.m_Bits
