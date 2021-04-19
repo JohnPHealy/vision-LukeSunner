@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -65,5 +66,17 @@ public class PlayerMovement : MonoBehaviour
         {
             myRB.velocity = new Vector2(myRB.velocity.x, 0f);
         }
+    }
+
+    private void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.name.Equals("Platform"))
+            this.transform.parent = col.transform;
+    }
+
+    private void OnCollisionExit(Collision col)
+    {
+        if (col.gameObject.name.Equals("Platform"))
+            this.transform.parent = null;
     }
 }

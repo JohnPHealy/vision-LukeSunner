@@ -17,7 +17,7 @@ public class PlatformMovement : MonoBehaviour
       {
          MoveUp = false;
       }
-      if (transform.position.y < -6f)
+      if (transform.position.y < -8f)
       {
          MoveUp = true;
       }
